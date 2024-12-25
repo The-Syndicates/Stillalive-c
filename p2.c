@@ -1,7 +1,7 @@
 #include<stdio.h>
 char STR[100],PAT[100],REP[100],ANS[100];
 int s, p, r, a, flag = 0;
-//Function Declaration
+
 void read();
 void replace();
 void display();
@@ -25,12 +25,12 @@ void replace ()
 s = p = a = 0;
 while ( STR[s] != '\0')
 {
-// Checking for Match
+
 if ( STR[s] == PAT[p] )
 {
 p++;
 s++;
-//if the first character is matched check for entire PAT string
+
 if ( PAT[p] == '\0')
 {
 flag=1;
@@ -39,7 +39,7 @@ ANS[a] = REP[r];
 p = 0;
 }
 }
-else //Mismatch
+else 
 {
 ANS[a] = STR[s];
 s++;
