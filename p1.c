@@ -44,7 +44,6 @@ printf("\n%s\t\t%d\t\t%s",calendar[i].day,calendar[i].date,calendar[i].activity 
 }
 void main()
 {
-     printf("ATUL RAJ\nUSN - 1AY23CS045\n");
 struct calElement *calendar;
 calendar=create();
 read(calendar);
