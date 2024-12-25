@@ -58,7 +58,6 @@ printf("The stack does not contain a Palindrome number\n");
 }
 void main()
 {
-    printf("ATUL RAJ\nUSN - 1AY23CS045\n");
 int ch;
 do
 {
