@@ -46,7 +46,6 @@ void display(int front)
 }
 void main()
 {
-    printf("ATUL RAJ\n USN-1AY23CS045\n");
     int choice;
     do
     {
