@@ -13,7 +13,6 @@ void towerofhanoi(int n, char source, char aux, char dest) {
 int main() {
     int n;
     char source, aux, dest;
-    printf("Name-Atul Raj\nUSN-1AY23CS045\n");
 
     printf("Enter the number of disks: ");
     scanf("%d", &n);
