@@ -31,7 +31,6 @@ int pop()
 }
 int main()
 {
-    printf("Name-Atul Raj\nUSN-1AY23CS045\n");
     char *exp = "625*7/84+39-2%3^28";
     int i, val1, val2;
     for (i = 0; exp[i] != '\0'; i++)
