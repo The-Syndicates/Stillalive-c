@@ -7,7 +7,6 @@ void replace();
 void display();
 void main()
 {
-printf("ATUL RAJ\nUSN - 1AY23CS045\n");
 read();
 replace();
 display();
