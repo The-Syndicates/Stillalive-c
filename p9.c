@@ -92,7 +92,6 @@ int main()
 {
     int n1;
     double sum1, sum2;
-    printf("Name-Atul Raj\nUSN-1AY23CS045");
     printf("\nHow many terms in polynomial 1= ");
     scanf("%d", &n1);
     for (int i = 1; i <= n1; i++)
