@@ -36,7 +36,6 @@ struct emp* serach_emp(int ekey, int m)
 int main()
 {	FILE *file;
     int m,i;
-    printf("Atul Raj \nUSN : 1AY23CS045\n");
     printf("Enter the size of the hash table (m): ");
     scanf("%d", &m);
     for (i=0;i<m;i++)
