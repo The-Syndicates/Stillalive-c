@@ -30,7 +30,6 @@ return elem;
 void main() {
 	char infix[50], postfix[50], ch, elem;
 	int i = 0, k = 0;
-    printf("Name-ATUL RAJ \n USN-1AY23BECS045\n");
 	printf("\n\nEnter the Infix Expression: ");
 	scanf("%s", infix);
 	push('#'); //first item we have to push is # to show empty stack 
